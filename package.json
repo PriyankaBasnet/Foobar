@@ -1,0 +1,20 @@
+{
+  "name": "foobar",
+  "version": "1.0.0",
+  "description": "my first package",
+  "main": "y",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "basnet123"
+  ],
+  "author": "priyanka",
+  "license": "ISC"
+}

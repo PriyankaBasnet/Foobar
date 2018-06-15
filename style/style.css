@@ -1,0 +1,378 @@
+.restaurant-page-container {
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* header Css starts from here  */
+.header {
+  background-color: #12142c;
+  padding: 0 0 0 40px;
+  display: grid;
+  grid-template-columns: 6fr 3fr 2% 5% 5% 8% 5%;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.search-box {
+  background-color: white;
+  border: 1px solid white;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 10px 0;
+}
+
+.search-icon {
+ padding: 10px;
+ cursor: pointer;
+ border-top-right-radius: 2px;
+ border-bottom-right-radius: 2px;
+ background-color: #3868fb;
+}
+
+.notification-icon, .heart-icon, .menu-icon {
+  justify-self: center;
+  padding: 15px 0 15px 20px;
+  cursor: pointer;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 15px 0 15px 20px;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+
+.user-name {
+  margin-left: 10px;
+}
+
+
+.brand-name {
+  font-size: 17.1px;
+  margin-left: 8px;
+}
+
+/* header css end here */
+
+.menu-list {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+}
+
+.list-items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.list-items li {
+  margin-right: 36px;
+  padding: 24px 0;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  cursor: pointer;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.border {
+  margin: 0 30px;
+  height: 64px;
+  border: solid 0.5px #dee0e6;
+}
+
+.list-items li:hover {
+  color: #3868fb;
+  border-bottom: 2px solid #3868fb;
+}
+
+.offer {
+  background-color: #f5a623;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 0.9px;
+  padding: 2px 4px;
+  font-size: 11px;
+  color: white;
+  margin-left: 8px;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  height: 466.3px;
+}
+
+.banner-text {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+.div-1 {
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+}
+
+.follow-button {
+  padding: 15px 40px;
+  border-radius: 3px;
+  color: white;
+  background-color: #02c55e;
+}
+
+.place-name {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.rating-container, .reviews-container, .address {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.address {
+  flex-basis: 65%;
+  justify-content: flex-start;
+}
+
+.rating {
+  padding: 2px;
+  border-radius: 4px;
+  background-image: linear-gradient(92deg, #2260f8, #9053fe);
+}
+
+.favourite, .share {
+  justify-content: flex-end;
+}
+
+.bottom-list-items {
+  flex-basis: 70%;
+}
+
+/* third div starts from here*/
+.div-third {
+  padding: 30px 100px;
+  display: grid;
+  grid-template-columns: 60% 1fr; 
+  grid-gap: 30px;
+  background-color: #f2f4f8;
+}
+
+
+.overview-wrapper, 
+.address-wrapper, 
+.cuisine-wrapper, 
+.rate-wrapper, 
+.rate-review-wrapper,
+.comment-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-row-end: span 4;
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px 25px 20px 20px;
+}
+
+.cuisine-wrapper, 
+.rate-review-wrapper,
+.comment-wrapper {
+  grid-column-end: 2;
+}
+
+.rate-wrapper {
+ flex-direction: row;
+  grid-column-end: 2;
+}
+
+.rate-review-wrapper {
+  padding: 20px 0;
+}
+
+.overview-wrapper > * {
+  margin-top: 20px;  
+}
+
+.overview-image {
+  align-self: stretch;
+  height: 346px;
+}
+
+.directions {
+  margin-left: 20px;
+}
+
+.score-container {
+  height: 90px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-image: linear-gradient(91deg, #2260f8, #9053fe);
+}
+
+.score-image {
+  width: 48px;
+  height: 48px;
+}
+
+.button--earn--more {
+  cursor: pointer;
+  border-radius: 18px;
+  color: #7057fc;
+  background-color: #ffffff;
+}
+
+.policy-container {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.policy-image {
+  width: 30px;
+  height: 30px;
+}
+
+
+.policy-text {
+  margin: 14px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.view-policy-wrapper{
+  padding: 0;
+}
+
+.view-policy {
+  padding: 20px 0 20px 20px;
+  border-bottom: 1px solid #f9f9f9 ;
+}
+
+.terms-conditions {
+  padding: 20px 0 0 20px;
+}
+
+.wrapper  {
+  display: flex;
+  align-items: flex-start;
+}
+
+.extra-padding {
+  
+}
+
+.add-wrapper {
+  background-color: #fcfcfc;
+}
+
+.pizza-hut-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.pizza {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+.map-image {
+  width: 124px;
+  height: 100px;
+}
+
+.dish-category {
+  padding: 8px 12px;
+  margin: 10px 10px 0 0;
+  border-radius: 3px;
+  background-color: #f2f4f8;
+}
+
+.menu-card-image {
+  margin-top: 10px;
+  width: 130px;
+  height: 140px;
+}
+
+.rate-review-heading {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.button--top--rated {
+  color: #3868fb;
+  border-radius: 3px;
+  border: solid 1px #3868fb;
+}
+
+.button--rate--reviews {
+  border-radius: 17.2px;
+  color: #3868fb;
+  border: solid 1px #3868fb;
+}
+
+.profile-wrapper {
+  position: relative;
+}
+
+.profile {
+  position: absolute;
+  border: 1px solid white;
+}
+
+.profile1 {
+  left: 30px;
+}
+
+.profile2 {
+  left: 60px;
+}
+
+.see-all-review {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  color: #3868fb;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit-button {
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  background-color: #3868fb;
+}
+
+
