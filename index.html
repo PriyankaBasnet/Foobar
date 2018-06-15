@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Page Title</title>
+    <title>Restaurant Detailed Page</title>
       <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="style/initial.css">
@@ -11,54 +11,53 @@
   </head>
   <body>
     
-    <div class="restaurant-page-container">
-      
-     <header class="header">
-       <div class="logo-wrapper">
+  <div class="restaurant-page-container">    
+    <header class="header">
+      <div class="logo-wrapper">
         <img class="logo icon" src="images/logo.png">
         <span class="brand-name text">pro</span>
-       </div>
-       <input type="text" class="search-box"><img src="images/search-icon.png" class="search-icon"></input>
-       <div class="notification-icon"><img class="icon" src="images/notification.png"></div>
-       <div class="heart-icon"><img class="icon" src="images/heart.png"></div>
-       <div class="user-details">
-         <img src="http://graph.facebook.com/v2.6/1475152545933039/picture" class="user-image">
-         <span class="user-name text">pro</span>
-       </div>
-       <div class="menu-icon"><img src="images/menu-icon.png" class="icon"></div>
-     </header>
+      </div>
+      <input type="text" class="search-box"><img src="images/search-icon.png" class="search-icon"></input>
+      <div class="notification-icon"><img class="icon" src="images/notification.png"></div>
+      <div class="heart-icon"><img class="icon" src="images/heart.png"></div>
+      <div class="user-details">
+        <img src="http://graph.facebook.com/v2.6/1475152545933039/picture" class="user-image">
+        <span class="user-name text">pro</span>
+      </div>
+      <div class="menu-icon"><img src="images/menu-icon.png" class="icon"></div>
+    </header>
      
-     <div class="div-second">
-       <div class="menu-list">
-         <ul class="list-items">
-           <li>Home</li>
-           <li>Malls</li>
-           <li>Outlets</li>  
-         </ul>
-          <div class="offer">offer</div>
-         <div class="border"></div>
-         <ul class="list-items">
-           <li>Pro</li>
-           <li>Badges</li>
-           <li>Powers</li>
-         </ul>
-       </div>
+    <div class="div-second">
+      <div class="menu-list">
+       <ul class="list-items">
+         <li>Home</li>
+         <li>Malls</li>
+         <li>Outlets</li>  
+       </ul>
+        <div class="offer">offer</div>
+       <div class="border"></div>
+       <ul class="list-items">
+         <li>Pro</li>
+         <li>Badges</li>
+         <li>Powers</li>
+       </ul>
+      </div>
        
-       <div class="banner-container">
-         <img class="banner" src="images/hotel.jpg">
-         <div class="banner-text">
-           <div class="div-1">
+      <div class="banner-container">
+        <img class="banner" src="images/hotel.jpg">
+        <div class="banner-text">
+          <div class="div-1">
              <span class="place-name">Masala Darbar Juhu</span>
              <div class="follow-button">Follow</div>
-           </div>
-           <div class="div-1">
-             <div class="address">
-               <img class="icon" src="images/pin.png">
-               <span class="text">3rd Floor, R City Mall, Lal Bahadur Shastri Marg, Ghatkopar West, Mumbai, Maharashtra 400086, India</span>
-             </div>   
-             <div class="rating-container">
-               <div class="rating">
-                 <img class="icon" src="images/rating-star.png">
+          </div>
+          <div class="div-1">
+            <div class="address">
+              <img class="icon" src="images/pin.png">
+              <span class="text">3rd Floor, R City Mall, Lal Bahadur Shastri Marg, Ghatkopar West, Mumbai, Maharashtra 400086, India</span>
+            </div>   
+            <div class="rating-container">
+              <div class="rating">
+                <img class="icon" src="images/rating-star.png">
                  <span class="text text-left  ">3.1</span>
                </div>
                <span class="text text-left ">23 Ratings</span>
@@ -72,7 +71,7 @@
          </div>
        </div>
        
-       <div class="menu-list align-content">
+       <div class="menu-list alignment">
          <ul class="list-items bottom-list-items">
            <li>Overview</li>
            <li>Address</li>
@@ -85,7 +84,7 @@
            <img class="icon" src="images/red-heart.png">
            <span class="text-left "> Marked Favourite</span>
          </div>
-         <div class="button share">share</div>   
+         <div class="button button--share">share</div>   
        </div>   
      </div>
      
@@ -292,11 +291,120 @@
         <span class="light-text top-gap">Your Comment</span>
         <textarea class="textarea top-gap"></textarea>
         <input type="button" class="submit-button top-gap" value="Submit Comment">
-      </div>        
-            
-         
+      </div>
+      
+      <div class="similar-places-container">
+        <div class="header-text">Similar Places</div>
+        <div class="align-content">
+          <div class="card-wrapper">
+            <img class="card-image" src="images/mall1.jpg">
+            <div class="card-info">
+              <span class="card-header">Harry’s Bar & Restaurant</span>
+              <span class="card-text">R City Mall, Andheri</span>
+              <span class="card-distance-text">8km</span>
+              <div class="rating card-rating">
+                <img class="card-rating-icon" src="images/rating-star.png">
+                 <div class="card-rating-text">3.1</div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <span class="card-footer__offer">offer</span>
+              <span class="card-footer__offer-text">Flat 50% on all Stores on this Diwali</span>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <img class="card-image" src="images/mall2.jpg">
+            <div class="card-info">
+              <span class="card-header">A Bar Called Life</span>
+              <span class="card-text">Phoenix Market City, Kurla</span>
+              <span class="card-distance-text">8km</span>
+              <div class="rating card-rating">
+                <img class="card-rating-icon" src="images/rating-star.png">
+                <div class="card-rating-text">3.1</div>
+              </div>
+            </div>  
+            <div class="card-footer">
+              <span class="card-footer__offer">offer</span>
+              <span class="card-footer__offer-text">Flat 50% on all Stores on this Diwali</span>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <img class="card-image" src="images/mall1.jpg">
+            <div class="card-info">
+              <span class="card-header">Northrn Tadka</span>
+              <span class="card-text">Viviana Mall, Thane</span>
+              <span class="card-distance-text">8km</span>
+              <div class="rating card-rating">
+                <img class="card-rating-icon" src="images/rating-star.png">
+                <div class="card-rating-text">3.1</div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <span class="card-footer__offer">offer</span>
+              <span class="card-footer__offer-text">Flat 50% on all Stores on this Diwali</span>
+            </div>
+          </div>
+        </div>
+      </div>     
+               
       </div>
        <!-- div-third ends from here -->
+       
+      <!-- div-fourth starts from here -->
+      <div class="div-fourth">
+         <div class="div-fourth-wrapper">
+           <div class="subscribe-info column-alignment">
+             <div class="subscribe-info__header normal-text">Subscribe to our Newsletter</div>
+              <div class="subscribe-info__text-button align">
+                <input type="text" class="text-box" placeholder="Please enter your email">
+                <div class="subscribe-button">subscribe</div>
+              </div>
+              <span class="subscribe-info__text light-gray-text">Register now to get updates on offers and coupons</span>
+              <span class="subscribe-info__download">DOWNLOAD APP</span>
+              <div class="align">
+                <img class="play-store" src="images/google-play-store.png">
+                <img class="play-store left" src="images/apple-play-store.png">
+              </div>
+           </div>
+           
+           <div class="header-wrapper left">
+             <div class="header-wrapper__text normal-text">Header 1</div>
+             <div class="header-wrapper__text light-gray-text">Alan Matthews</div>
+             <div class="header-wrapper__text light-gray-text">Travis Shaw</div>
+             <div class="header-wrapper__text light-gray-text">Nathan Wilkins</div>
+             <div class="header-wrapper__text light-gray-text">Walter Brooks</div>
+             <div class="header-wrapper__text light-gray-text">Donald Cole</div>
+           </div>
+           
+           <div class="header-wrapper left">
+             <div class="header-wrapper__text normal-text">Header 2</div>
+             <div class="header-wrapper__text light-gray-text">Alan Matthews</div>
+             <div class="header-wrapper__text light-gray-text">Travis Shaw</div>
+             <div class="header-wrapper__text light-gray-text">Nathan Wilkins</div>
+             <div class="header-wrapper__text light-gray-text">Walter Brooks</div>
+             <div class="header-wrapper__text light-gray-text">Donald Cole</div>
+           </div>
+           <div class="header-wrapper left">
+             <div class="header-wrapper__text normal-text">Header 3</div>
+             <div class="header-wrapper__text light-gray-text">Alan Matthews</div>
+             <div class="header-wrapper__text light-gray-text">Travis Shaw</div>
+             <div class="header-wrapper__text light-gray-text">Nathan Wilkins</div>
+           </div>
+           
+         </div>
+      </div>
+      <!-- div-fourth ends from here -->
+      
+      <div class="footer-container">
+       <div class="footer">
+        <div class="normal-text">POPULAR SEARCHES</div>
+        <div class="footer-container__text">Makeup |  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags |  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby   Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags
+        </div>
+        <div class="normal-text top-gap">USEFUL LINKS</div>
+        <div class="footer-container__text">Makeup |  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags |  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby   Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags|  Dresses For Girls | T-Shirts |  Sandals  |  Headphones |  Baby Dolls  |  Blazers For Men |  Handbags
+        </div>  
+       </div>   
+      </div>
        
     </div>
     <!-- restaurant-container ends from here -->

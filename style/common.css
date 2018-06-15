@@ -47,6 +47,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.light-gray-text {
+  font-size: 14px;
+  color: #7a7e8a;
+  letter-spacing: 0.4px;
+}
 
 .blue-text {
   color: #3868fb;

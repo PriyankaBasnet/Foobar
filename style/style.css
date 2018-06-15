@@ -161,12 +161,14 @@
 
 .rating {
   padding: 2px;
+  display: flex;
+  align-items: center;
   border-radius: 4px;
   background-image: linear-gradient(92deg, #2260f8, #9053fe);
 }
 
-.favourite, .share {
-  justify-content: flex-end;
+.button--share {
+  justify-self: flex-end;
 }
 
 .bottom-list-items {
@@ -373,6 +375,163 @@
   color: white;
   font-size: 16px;
   background-color: #3868fb;
+}
+
+.similar-places-container {
+  margin-top: 70px;
+  grid-column-end: 2;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-basis: 45%;
+  margin: 20px 22px 20px 0; 
+  padding-bottom: 18px;
+  flex-direction: column;
+  border-radius: 3.4px;
+  background-color: #ffffff;
+  border: solid 0.9px #dee0e6;
+}
+
+.card-image {
+  width: 100%;
+  height: 130px;
+}
+
+.card-info {
+  padding: 6px 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.card-footer {
+  padding: 0 8px 0 10px;
+}
+
+.card-header {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.card-text, 
+.card-distance-text {
+  font-size: 12px;
+  padding-top: 5px;
+  font-weight: normal;
+  color: #777777;
+  line-height: 1.71;
+}
+
+.card-distance-text {
+  color: #000000;
+}
+
+.card-rating {
+  padding-right: 2px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-image: linear-gradient(105deg, #02c55e, #06b157);
+}
+
+.card-rating-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.card-rating-text {
+  margin: 2px 2px 0 4px;
+  font-size: 11px;
+  color: white;
+}
+
+.card-footer__offer {
+  font-size: 9.4px;
+  padding: 2px;
+  text-transform: uppercase;
+  border-radius: 2.6px;
+  background-color: #f64c67;
+  color: white;
+}
+
+.card-footer__offer-text {
+  font-size: 10.3px;
+  font-weight: normal;
+  color: #777777;
+  border-radius: 2.6px;
+  background-color: #f7f7f7;
+}
+
+.div-fourth {
+  background-color: #edeff4;
+  border-bottom: solid 1px #dee0e6;
+  border-top: solid 1px #dee0e6;
+}
+
+.div-fourth-wrapper {
+  width: 70%;
+  display: flex;
+  padding: 60px 0 40px 0;
+  margin: 0 auto;  
+}
+
+.text-box {
+  width: 50%;
+  padding: 8px 10px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.subscribe-info {
+  margin-right: 100px;
+  width: 70%;
+}
+
+.subscribe-info__text-button {
+  margin: 18px 0;
+}
+
+.subscribe-info__download {
+  margin: 28px 0 20px 0;
+}
+
+.subscribe-button {
+  background-color: #3868fb;
+  padding: 12px 24px;
+  color: white;
+}
+
+.play-store {
+  width: 117px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.header-wrapper__text {
+  margin-bottom: 8px;
+}
+
+.header-wrapper {
+  width: 60%;
+}
+
+.footer {
+  width: 70%;
+  margin: 56px auto;
+}
+
+.footer-container__text {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #93969f;
 }
 
 
